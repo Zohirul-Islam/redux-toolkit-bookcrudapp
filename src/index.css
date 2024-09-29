@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.board-bg{
+    background-color: rgb(64, 62, 62);
+}
+h6, h5, h4, h3, h2, h1{
+    margin: 0;
+}
+ul li{
+    margin: 0;
+    list-style: none;
+}
+.search-box{
+    width: 25%;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.table{
+    background-color: transparent;
+}
+.bg-form{
+    background: #0e0d0e;
+    opacity: 90%;
+    z-index: 10;  
+}
